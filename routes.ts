@@ -1,6 +1,6 @@
 import * as http from 'http'
 import { readJSONBody } from '@iannisz/node-api-kit'
-import { StockfishInstance, StockfishLine } from './stockfish.js'
+import { StockfishInstance, StockfishLine } from 'node-stockfish'
 
 export interface StartAnalysingRequest
 {

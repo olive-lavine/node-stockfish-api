@@ -11,7 +11,8 @@
 	"author": "Iannis de Zwart",
 	"license": "ISC",
 	"dependencies": {
-		"@iannisz/node-api-kit": "^0.0.5"
+		"@iannisz/node-api-kit": "^0.0.5",
+		"node-stockfish": "^0.0.1"
 	},
 	"type": "module"
 }
