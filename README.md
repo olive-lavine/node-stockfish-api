@@ -44,7 +44,7 @@ Examples:
 
 ```json
 {
-	"moves": "e2e4 e7e5 b2c3",
+	"moves": "e2e4 e7e5 b1c3",
 	"lines": 5
 }
 ```
