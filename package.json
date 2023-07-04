@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"postinstall": "git clone git@github.com:official-stockfish/Stockfish.git && cd Stockfish/src && make build",
+		"postinstall": "tsc && git clone git@github.com:official-stockfish/Stockfish.git && cd Stockfish/src && make build",
 		"start": "node index.js"
 	},
 	"keywords": [],
@@ -12,7 +12,9 @@
 	"license": "ISC",
 	"dependencies": {
 		"@iannisz/node-api-kit": "^0.0.5",
-		"node-stockfish": "^0.0.1"
+		"node-stockfish": "^0.0.1",
+		"typescript": "^5.1.6",
+		"@types/node": "^20.3.3"
 	},
 	"type": "module"
 }
